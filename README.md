@@ -1,15 +1,8 @@
 # DLCenterScrollView
 
-[![CI Status](http://img.shields.io/travis/Lee9272/DLCenterScrollView.svg?style=flat)](https://travis-ci.org/Lee9272/DLCenterScrollView)
-[![Version](https://img.shields.io/cocoapods/v/DLCenterScrollView.svg?style=flat)](http://cocoapods.org/pods/DLCenterScrollView)
-[![License](https://img.shields.io/cocoapods/l/DLCenterScrollView.svg?style=flat)](http://cocoapods.org/pods/DLCenterScrollView)
-[![Platform](https://img.shields.io/cocoapods/p/DLCenterScrollView.svg?style=flat)](http://cocoapods.org/pods/DLCenterScrollView)
-
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
