@@ -1,0 +1,6 @@
+framework module DLCenterScrollView {
+  umbrella header "DLCenterScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

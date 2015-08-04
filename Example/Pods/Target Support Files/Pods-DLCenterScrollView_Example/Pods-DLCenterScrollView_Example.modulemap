@@ -1,0 +1,6 @@
+framework module Pods_DLCenterScrollView_Example {
+  umbrella header "Pods-DLCenterScrollView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

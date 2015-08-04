@@ -1,0 +1,20 @@
+{
+  "name": "DLCenterScrollView",
+  "version": "0.1.0",
+  "summary": "This is a horizontal ScrollView inspired by ATO App.",
+  "homepage": "https://github.com/davidleee/DLCenterHorizontalScrollView",
+  "license": "MIT",
+  "authors": {
+    "Lee9272": "yiran.lee72@gmail.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DLCenterScrollView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

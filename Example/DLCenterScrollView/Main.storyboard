@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
@@ -13,11 +13,59 @@
                         <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                    <view key="view" contentMode="scaleToFill" id="p0T-k1-zx8">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQm-b0-Rrz" customClass="DLCenterHorizontalScrollView">
+                                <rect key="frame" x="0.0" y="520" width="600" height="80"/>
+                                <color key="backgroundColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="0.34999999999999998" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="esg-Cy-wu2"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7I-lF-pnD">
+                                <rect key="frame" x="272" y="157" width="56" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Vt0-Qa-aEk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxE-gW-gha">
+                                <rect key="frame" x="276" y="465" width="49" height="30"/>
+                                <state key="normal" title="Reload">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reloadAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="ThS-aH-iDf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.68888300660000001" green="0.71366006140000005" blue="0.73448425530000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="pQm-b0-Rrz" firstAttribute="top" secondItem="NxE-gW-gha" secondAttribute="bottom" constant="25" id="1ax-1h-vUT"/>
+                            <constraint firstItem="Q7I-lF-pnD" firstAttribute="centerX" secondItem="pQm-b0-Rrz" secondAttribute="centerX" id="FoF-Nw-KWH"/>
+                            <constraint firstAttribute="trailing" secondItem="pQm-b0-Rrz" secondAttribute="trailing" id="S4b-D7-Gnh"/>
+                            <constraint firstAttribute="centerX" secondItem="Q7I-lF-pnD" secondAttribute="centerX" id="Wsi-5y-iv3"/>
+                            <constraint firstItem="NxE-gW-gha" firstAttribute="centerX" secondItem="pQm-b0-Rrz" secondAttribute="centerX" id="XK9-8m-p46"/>
+                            <constraint firstItem="pQm-b0-Rrz" firstAttribute="leading" secondItem="p0T-k1-zx8" secondAttribute="leading" id="pYk-Ty-D3E"/>
+                            <constraint firstItem="pQm-b0-Rrz" firstAttribute="top" secondItem="p0T-k1-zx8" secondAttribute="top" constant="520" id="qLh-aD-l7B"/>
+                            <constraint firstItem="Q7I-lF-pnD" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="137" id="u3A-II-Y5L"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="pQm-b0-Rrz" secondAttribute="bottom" id="wEh-e2-D8e"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FoF-Nw-KWH"/>
+                                <exclude reference="qLh-aD-l7B"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="Q7I-lF-pnD" id="UU8-ew-aZM"/>
+                        <outlet property="dateSelector" destination="pQm-b0-Rrz" id="UDb-mG-xap"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
