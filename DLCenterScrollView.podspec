@@ -1,4 +1,4 @@
-gitPod::Spec.new do |s|
+Pod::Spec.new do |s|
   s.name             = "DLCenterScrollView"
   s.version          = "0.1.0"
   s.summary          = "This is a horizontal ScrollView inspired by ATO App."
