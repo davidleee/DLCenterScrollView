@@ -1,5 +1,7 @@
 # DLCenterScrollView
 
+![](https://github.com/davidleee/DLCenterScrollView/blob/master/screen_shot.png)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
