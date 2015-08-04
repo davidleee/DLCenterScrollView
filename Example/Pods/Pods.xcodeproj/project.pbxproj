@@ -98,7 +98,7 @@
 		918894A658A94EC3D5B5853F5E2B9283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BA49428A469AA241162C57FA57CE70 /* Foundation.framework */; };
 		93EB85A8F21B2F96ED5ED9A565958E9A /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = E26EA668789F0490CD30776D021872E9 /* SPTTestSuite.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9766161A65ABFEA9C68542534C338039 /* EXPMatchers+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F083CD4488551764BCA7CB2345024B43 /* EXPMatchers+FBSnapshotTest.m */; };
-		9795C18736696351767E670827B2CEE7 /* DLCenterHorizontalScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FC16872AD9837D69AA8364E78BC628 /* DLCenterHorizontalScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9795C18736696351767E670827B2CEE7 /* DLCenterScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FC16872AD9837D69AA8364E78BC628 /* DLCenterScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		995BD9C9F2274B9323DB6EC7A42DCB92 /* DLCenterScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E34E759E4030E8A74A02EF272390A5F2 /* DLCenterScrollView-dummy.m */; };
 		99608167179A78269E142E8146ADA093 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BD20A80F6F45031633C83648AD01AC /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F5A52D17880E0F1526F9EEF25D40C77 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB9A2255BE9D7C6EE8D0FD7785DBE8C /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -150,7 +150,7 @@
 		ED8D562FF71859B24E8048FF94345F71 /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B753C01DFA0EB1A2EFDD9C12E6E2DBB /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F308617D1A6ED7197946EE65DCAC43F7 /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F21D9FF4BE375264BA0CCDEB6A498D9 /* SPTExample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F47F19332255E227B0BE6B1AB743E30F /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4831AAAA555F9618949E1386DAA9028 /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F623C173CCAA21013D190F0D9F0D752D /* DLCenterHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F7D7E0BDE6582E6C4BA47DAFB1F9F /* DLCenterHorizontalScrollView.m */; };
+		F623C173CCAA21013D190F0D9F0D752D /* DLCenterScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F7D7E0BDE6582E6C4BA47DAFB1F9F /* DLCenterScrollView.m */; };
 		FA9365D029371103382A92087C55A313 /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE3C835F5950CC77D338DE906E3588D /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAB63B283B966922BE7DF867CE9A6FBA /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF4533275921E9CA56389EE9C75A2A4 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB09FAF8D9E5FA8C7096307ED8C485E5 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936F59F77C6EB5B7B8287EC68895D61 /* Expecta-dummy.m */; };
@@ -223,7 +223,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003F7D7E0BDE6582E6C4BA47DAFB1F9F /* DLCenterHorizontalScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLCenterHorizontalScrollView.m; sourceTree = "<group>"; };
+		003F7D7E0BDE6582E6C4BA47DAFB1F9F /* DLCenterScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLCenterScrollView.m; sourceTree = "<group>"; };
 		00B70FA36801CA00EC0572D3A79762CA /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
 		043D67BD5C3B667CBB27782CACD39BB0 /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
 		049BC0485D81BA81CF55C0EC7379F73A /* Pods-DLCenterScrollView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLCenterScrollView_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -402,7 +402,7 @@
 		F083CD4488551764BCA7CB2345024B43 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		F13D7F2B34C8304AA3751CFA077B891E /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
 		F4831AAAA555F9618949E1386DAA9028 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
-		F5FC16872AD9837D69AA8364E78BC628 /* DLCenterHorizontalScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLCenterHorizontalScrollView.h; sourceTree = "<group>"; };
+		F5FC16872AD9837D69AA8364E78BC628 /* DLCenterScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLCenterScrollView.h; sourceTree = "<group>"; };
 		F860CC7E5AFA6CB550900E2F2FEE127E /* DLScrollItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLScrollItemView.h; sourceTree = "<group>"; };
 		F864EA4A0FA175A30FADFCF302873884 /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
 		F9069C12C2B0D66B15D05212F7EC4F44 /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
@@ -708,8 +708,8 @@
 		BDF9D118E965B5B056D1249CBD8694C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F5FC16872AD9837D69AA8364E78BC628 /* DLCenterHorizontalScrollView.h */,
-				003F7D7E0BDE6582E6C4BA47DAFB1F9F /* DLCenterHorizontalScrollView.m */,
+				F5FC16872AD9837D69AA8364E78BC628 /* DLCenterScrollView.h */,
+				003F7D7E0BDE6582E6C4BA47DAFB1F9F /* DLCenterScrollView.m */,
 				F860CC7E5AFA6CB550900E2F2FEE127E /* DLScrollItemView.h */,
 				7683F00885D83F85C5D75DFE1373A07B /* DLScrollItemView.m */,
 			);
@@ -916,7 +916,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9795C18736696351767E670827B2CEE7 /* DLCenterHorizontalScrollView.h in Headers */,
+				9795C18736696351767E670827B2CEE7 /* DLCenterScrollView.h in Headers */,
 				6B8D65697D94423F77A201C299A88F47 /* DLCenterScrollView-umbrella.h in Headers */,
 				21E846CB16979EFC8482825094280DDC /* DLScrollItemView.h in Headers */,
 			);
@@ -1272,7 +1272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F623C173CCAA21013D190F0D9F0D752D /* DLCenterHorizontalScrollView.m in Sources */,
+				F623C173CCAA21013D190F0D9F0D752D /* DLCenterScrollView.m in Sources */,
 				995BD9C9F2274B9323DB6EC7A42DCB92 /* DLCenterScrollView-dummy.m in Sources */,
 				30AEB1F5C951132E4411583563D49A97 /* DLScrollItemView.m in Sources */,
 			);

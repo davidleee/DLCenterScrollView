@@ -6,18 +6,18 @@
 //  Copyright (c) 2015 Scau. All rights reserved.
 //
 
-#import "DLCenterHorizontalScrollView.h"
+#import "DLCenterScrollView.h"
 
 #define kTagOffset 1000
 
-@interface DLCenterHorizontalScrollView() <UIScrollViewDelegate>
+@interface DLCenterScrollView() <UIScrollViewDelegate>
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) NSMutableArray *scrollItems;
 @property (nonatomic, assign) CGRect selectedViewFrame;
 @property (nonatomic, assign) CGFloat distance;
 @end
 
-@implementation DLCenterHorizontalScrollView
+@implementation DLCenterScrollView
 
 - (void)awakeFromNib
 {

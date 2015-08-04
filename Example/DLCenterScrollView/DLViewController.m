@@ -37,7 +37,7 @@
     [self.dateSelector reloadView];
 }
 
-- (void)scrollView:(DLCenterHorizontalScrollView *)scrollView didTapItemAtIndex:(int)index
+- (void)scrollView:(DLCenterScrollView *)scrollView didTapItemAtIndex:(int)index
 {
     self.dateLabel.text = [NSString stringWithFormat:@"%d", index];
 }

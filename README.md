@@ -22,7 +22,7 @@ pod "DLCenterScrollView"
 
 ## Author
 
-Lee9272, yiran.lee72@gmail.com
+DavidLeee
 
 ## License
 

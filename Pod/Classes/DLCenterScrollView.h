@@ -9,14 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "DLScrollItemView.h"
 
-@class DLCenterHorizontalScrollView;
+@class DLCenterScrollView;
 @protocol DLCenterHorizontalScrollViewDelegate <NSObject>
 
-- (void)scrollView:(DLCenterHorizontalScrollView *)scrollView didTapItemAtIndex:(int)index;
+- (void)scrollView:(DLCenterScrollView *)scrollView didTapItemAtIndex:(int)index;
 
 @end
 
-@interface DLCenterHorizontalScrollView : UIView
+@interface DLCenterScrollView : UIView
 @property (nonatomic, weak) id<DLCenterHorizontalScrollViewDelegate> delegate;
 
 - (void)reloadView;
