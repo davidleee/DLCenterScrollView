@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DLCenterScrollView_Example', :exclusive => true do
+  pod "DLCenterScrollView", :path => "../"
+end
+
+target 'DLCenterScrollView_Tests', :exclusive => true do
+  pod "DLCenterScrollView", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
